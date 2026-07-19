@@ -25,7 +25,7 @@ body{
   background:rgba(0,0,0,.75);
   backdrop-filter:blur(12px);
   z-index:1000;
-  border-bottom:1px solid #ff2d2d;
+  border-bottom:1px solid #8B5CF6;
 }
 
 .logo{
@@ -54,7 +54,7 @@ nav a{
 }
 
 nav a:hover{
-  color:#ff2d2d;
+  color:#8B5CF6;
 }
 
 /* HERO */
@@ -69,8 +69,8 @@ nav a:hover{
   position:relative;
   padding:60px 20px;
   background:
-  radial-gradient(circle at top,#8a2be255 0%,transparent 45%),
-  linear-gradient(135deg,#050505,#18002d);
+radial-gradient(circle at top,#8B5CF633 0%,transparent 45%),
+linear-gradient(135deg,#050505,#0A0A0F);
 }
 
 .hero-content{
@@ -84,8 +84,8 @@ nav a:hover{
 
 .hero h1{
   font-size:3rem;
-  color:#ff2d2d;
-  text-shadow:0 0 25px #ff2d2d;
+  color:#8B5CF6;
+  text-shadow:0 0 25px #8B5CF6;
   margin-bottom:18px;
 }
 
@@ -114,14 +114,14 @@ nav a:hover{
 }
 
 .btn-primary{
-  background:#ff2d2d;
+  background:#8B5CF6;
   color:#fff;
-  box-shadow:0 0 20px #ff2d2d;
+  box-shadow:0 0 20px #8B5CF6;
 }
 
 .btn-primary:hover{
   transform:translateY(-3px);
-  box-shadow:0 0 35px #ff2d2d;
+  box-shadow:0 0 35px #8B5CF6;
 }
 
 .btn-secondary{
@@ -131,7 +131,7 @@ nav a:hover{
 }
 
 .btn-secondary:hover{
-  background:#ff2d2d;
+  background:#8B5CF6;
 }
 
 /* PHONE */
@@ -222,9 +222,9 @@ nav a:hover{
 .section h2{
     text-align:center;
     font-size:2.3rem;
-    color:#ff2d2d;
+    color:#8B5CF6;
     margin-bottom:50px;
-    text-shadow:0 0 15px #ff2d2d;
+    text-shadow:0 0 15px #8B5CF6;
 }
 
 /* TOURNAMENT CARDS */
@@ -237,7 +237,7 @@ nav a:hover{
 
 .card{
     background:#111;
-    border:1px solid rgba(255,45,45,.25);
+    border:1px solid rgba(139,92,246,.18);
     border-radius:20px;
     overflow:hidden;
     transition:.35s;
@@ -246,7 +246,7 @@ nav a:hover{
 .card:hover{
     transform:translateY(-10px);
     border-color:#800080;
-    box-shadow:0 0 30px rgba(255,45,45,.35);
+    box-shadow:0 0 30px rgba(99,102,241,.25);
 }
 
 .card h3{
@@ -266,7 +266,7 @@ nav a:hover{
     padding:13px;
     border:none;
     border-radius:12px;
-    background:#ff2d2d;
+    background:#8B5CF6;
     color:#fff;
     font-weight:bold;
     cursor:pointer;
@@ -294,7 +294,7 @@ nav a:hover{
 
 .feature{
     background:#111;
-    border:1px solid rgba(255,45,45,.25);
+    border:1px solid rgba(139,92,246,.18)b;
     border-radius:18px;
     padding:30px 20px;
     text-align:center;
@@ -303,8 +303,8 @@ nav a:hover{
 
 .feature:hover{
     transform:translateY(-8px);
-    border-color:#ff2d2d;
-    box-shadow:0 0 25px rgba(255,45,45,.25);
+    border-color:#8B5CF6;
+    box-shadow:0 0 25px rgba(139,92,246,.18);
 }
 
 /* ========================= */
@@ -318,9 +318,9 @@ footer{
 }
 
 footer h3{
-    color:#ff2d2d;
+    color:#8B5CF6;
     margin-bottom:10px;
-    text-shadow:0 0 12px #ff2d2d;
+    text-shadow:0 0 12px #8B5CF6;
 }
 
 footer p{
@@ -414,8 +414,8 @@ footer p{
     height:42px;
     border-radius:50%;
     object-fit:cover;
-    border:2px solid #ff2d2d;
-    box-shadow:0 0 15px #ff2d2d;
+    border:2px solid #8B5CF6;
+    box-shadow:0 0 15px #8B5CF6;
     margin-right:8px;
     vertical-align:middle;
 }
@@ -456,7 +456,7 @@ footer p{
         flex-direction:column;
         text-align:center;
         padding:15px 0;
-        border-top:2px solid #ff2d2d;
+        border-top:2px solid #8B5CF6;
     }
 
     nav.active{
