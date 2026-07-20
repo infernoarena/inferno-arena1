@@ -84,8 +84,10 @@ linear-gradient(135deg,#050505,#0A0A0F);
 
 .hero h1{
   font-size:3rem;
-  color:#8B5CF6;
-  text-shadow:0 0 25px #8B5CF6;
+  color:#C9A227; /* Dark Gold */
+  text-shadow:
+      0 0 8px rgba(201,162,39,.5),
+      0 0 15px rgba(201,162,39,.3);
   margin-bottom:18px;
 }
 
