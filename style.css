@@ -116,14 +116,15 @@ linear-gradient(135deg,#050505,#0A0A0F);
 }
 
 .btn-primary{
-  background:#8B5CF6;
-  color:#fff;
-  box-shadow:0 0 20px #8B5CF6;
+    background:#56BA13;
+    color:#fff;
+    box-shadow:0 0 20px #56BA13;
 }
 
 .btn-primary:hover{
-  transform:translateY(-3px);
-  box-shadow:0 0 35px #8B5CF6;
+    transform:translateY(-3px);
+    background:#4AA310;
+    box-shadow:0 0 35px #56BA13;
 }
 
 .btn-secondary{
