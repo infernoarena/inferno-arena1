@@ -31,19 +31,8 @@ body{
 .logo{
     font-size:1.4rem;
     font-weight:900;
-    background:linear-gradient(
-        90deg,
-        #fff7b2,
-        #FFD700,
-        #FFB300,
-        #FFD700,
-        #fff7b2
-    );
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    text-shadow:
-        0 0 3px rgba(255,215,0,.3),
-        0 0 8px rgba(255,193,7,.2);
+    color:#FFD700;
+    text-shadow:0 0 8px rgba(255,215,0,.35);
 }
 
 nav a{
